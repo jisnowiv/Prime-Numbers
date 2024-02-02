@@ -2,7 +2,7 @@
 Python code for generating prime numbers.
 
 ## Usage
-```python main.py n```
+```python main.py <n>```
 
 Where ```n``` is the range for generating prime numbers.
 
