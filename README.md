@@ -4,7 +4,7 @@ Python code for generating prime numbers.
 ## Usage
 ```python main.py <n>```
 
-Where ```n``` is the range for generating prime numbers.
+Where ```n``` is the range for generating prime numbers. If ```n``` is omitted, the program will execute for ```n=10```, ```n=100```, and ```n=100000```. It will also execute negative test cases for ```n='a'```, ```n=0```, and ```n=1```.
 
 ### Example
 ```
