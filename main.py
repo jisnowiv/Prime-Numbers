@@ -45,12 +45,21 @@ def primes_to_n(n):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     if len(sys.argv) < 2:
+        # Positive test cases
         print("Calculating for 10")
         print(primes_to_n(10))
         print("Calculating for 100")
         print(primes_to_n(100))
         print("Calculating for 100000")
         print(primes_to_n(100000))
+        
+        # Negative test cases, all should return [-1]
+        print("Calculating for a")
+        print(primes_to_n("a"))
+        print("Calculating for 0")
+        print(primes_to_n(0))
+        print("Calculating for 1")
+        print(primes_to_n(1))
     else:
         try:
             n_input = int(sys.argv[1])
